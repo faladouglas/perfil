@@ -81,10 +81,11 @@ background-color: grey;
 .banner{
     display: flex;
     width: 100%;    
-    height: 100%;
+    height: 100%;  
+    background-size: 100%;
     background-image: url(../../img/1440px.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -100,7 +101,7 @@ background-color: grey;
 .banner-btn a{
     display: inline-block;
     color: black;
-    width: 20%;
+    width: 150px;
     height: 1%;
     border-radius: 6px;
     text-decoration: none;
@@ -130,7 +131,7 @@ main{
     align-items: center;
     width: 100%;    
     height: 70%;    
-    margin: auto;    
+      
     
 }
 .main-container{
@@ -146,7 +147,7 @@ main{
     
 }
 .main-item {
-    width: 150px;    
+    width: 20%;    
     height: 60%;
     display: flex;
     flex-direction: column;
@@ -175,4 +176,33 @@ main{
     margin-bottom: 20px ;
 
 }
+/*Media queries*/
+
+@media (max-width:899px){
+}
+
+@media (max-width:817px){
+    .main-item{
+        width: 40%;
+    }
+}
+@media (max-width:700px){
+    .navigation{
+        display: none;
+    }
+
+
+}
+@media (max-width:500px){
+    .main-item{
+        width: 50%;
+    }
+}
+
+     
+       
+       
+        
+        
+    
 
